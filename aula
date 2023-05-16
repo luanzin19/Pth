@@ -1,0 +1,31 @@
+idade = 25
+peso = 85.0
+nome = 'Luiz'
+testeIdade = idade > 20
+     
+Insira o seu peso85
+
+#Type(variável)
+     
+Input de valores
+
+
+nome = input('Digite seu nome')
+     
+
+signo = input('Digite seu signo')
+     
+
+print(f'Olá, {nome}. Seu signo é {signo}?')
+     
+Alterar Tipo de variável
+
+
+peso = input('Digite seu peso! ')
+     
+
+altura = input('Digite a altura! ')
+     
+
+#Cálculo do IMC  peso/altura^2
+imc = peso / (altura*altura)
