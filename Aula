@@ -1,0 +1,33 @@
+def pronomeTratam(pronome):
+  print(pronome," Pablo")
+     
+
+pronomeTratam('Doutor')
+pronomeTratam('Ilmo')
+pronomeTratam('Seu')
+     
+Doutor  Pablo
+Ilmo  Pablo
+Seu  Pablo
+
+#Uma função deve ser chamada com o número certinho de argumentos
+def boasVindas(nome, cargo):
+  print('Olá, '+ cargo + ' '+ nome)
+     
+
+boasVindas('Amaralina', 'Engenheira')
+boasVindas('Jorge', 'Carimbador')
+boasVindas('Maria', 'Sargento')
+#Experimente passar apenas um dos parâmetros
+#boasVindas('Lucas')
+     
+Olá, Engenheira Amaralina
+Olá, Carimbador Jorge
+Olá, Sargento Maria
+
+def funcaoSemNome(nome, anoNascim):
+  idade = 2023 - anoNascim
+  print(nome, idade)
+     
+
+funcaoSemNome('Pablo', 1982)
