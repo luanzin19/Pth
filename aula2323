@@ -1,0 +1,14 @@
+nomes = ['josé', 'joão', 'Sebastião', 'Angélica', 'Leonardo', 'Luana', 'Bárbara']
+
+new_list = list(filter(lambda x : len(x)>5, nomes))
+new_list
+
+
+
+
+
+# crie uma lista de notas, imprime as maiores que 6
+notas = [3, 4, 9, 8, 6, 7]
+newNotas = list(filter(lambda x : x >= 6, notas ))
+
+newNotas
