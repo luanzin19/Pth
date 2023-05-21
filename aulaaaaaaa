@@ -1,0 +1,31 @@
+Até aqui você aprendeu a fazer funções deste tipo
+def dobro(num):
+  return 2*num
+     
+
+#Reescrevendo a função dobro, como função lambda
+dobroLam = lambda num : num * 2
+     
+
+dobroLam(67)
+     
+134
+
+#Reescreva as funções a seguir como funções lambda
+def soma(num1, num2):
+  return num1 + num2
+#VersãoLambda
+somaLam = lambda a, b : a+b
+
+def media (nota1, nota2, nota3):
+  return (nota1+nota2+nota3)/3
+#versão Lambda
+mediaLam =lambda a, b, c : (a+b+c)/3
+
+def imc(peso, altura):
+  return peso/altura**2
+#Versão Lambda
+imcLam = lambda p, a: p/a**2
+print(imcLam(80, 1.7))
+     
+27.68166089965398
