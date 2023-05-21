@@ -1,0 +1,41 @@
+frutas = ['banana', 'abacaxi', 'abacate', 'goiaba', 'uva', 'jaca', 'acerola']
+
+def iniciaComA(lista):
+  wordA = []
+  for f in frutas:
+    if(f[0] == 'a'):
+      wordA.append(f)
+  print(len(wordA), 'palavras encontradas iniciando com a letra "a":')
+  return wordA
+
+iniciaComA(frutas)
+
+     
+3 palavras encontradas iniciando com a letra "a":
+['abacaxi', 'abacate', 'acerola']
+
+#2 - Escreva uma função que receba uma lista de números e retorne o produto desses números
+nums = [4, 3, 2, 14, 3, 2, 3, 2, 1, 3, 4, 4]
+
+def produtoNumeros(numeros):
+  produto = 1
+  for numero in numeros:
+    produto *= numero
+  return produto
+
+def somaPares(numeros):
+  soma = 0
+  for n in numeros:
+    if(n % 2 == 0):
+      soma += n
+  return soma
+
+print(produtoNumeros(nums))
+print(somaPares(nums))
+     
+580608
+32
+
+somatorio(numerozinhos)
+     
+20
