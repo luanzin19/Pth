@@ -1,0 +1,29 @@
+def imc(peso, altura):
+  return peso/altura**2 
+     
+
+def situacaoPeso(imc):
+  if(imc < 18.5):
+    print('Abaixo do peso normal')
+  elif(imc < 24.9):
+    print('Peso normal')
+  else:
+    print('Obesidade')
+     
+
+situacaoPeso(imc(83, 1.65))
+     
+Obesidade
+
+#Soma
+def soma(a, b):
+  return a + b
+#Subtração
+def subtracao(a, b):
+  return a - b
+#Multiplicação
+def vezes(a, b):
+  return a * b
+#Divisão
+def divisao(a, b):
+  return a / b
