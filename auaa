@@ -1,0 +1,16 @@
+def jurosSimples(valor, tempo):
+  return valor * 0.025 * tempo
+
+def simulacao(capital, juros):
+  return juros + capital
+     
+
+valorEmprestimo = float(input('Digite o valor do empréstimo: '))
+tempo = float(input('Digite o tempo do empréstimo: '))
+juros = jurosSimples(valorEmprestimo, tempo)
+
+simulacao(valorEmprestimo, juros)
+     
+Digite o valor do empréstimo: 1500
+Digite o tempo do empréstimo: 12
+1950.0
