@@ -1,0 +1,15 @@
+frutas = ['banana', 'abacaxi', 'abacate', 'goiaba', 'uva', 'jaca', 'acerola']
+
+def iniciaComA(lista):
+  wordA = []
+  for f in frutas:
+    if(f[0] == 'a'):
+      wordA.append(f)
+  print(len(wordA), 'palavras encontradas iniciando com a letra "a":')
+  return wordA
+
+iniciaComA(frutas)
+
+     
+3 palavras encontradas iniciando com a letra "a":
+['abacaxi', 'abacate', 'acerola']
