@@ -1,0 +1,20 @@
+#Cálculo de fatorial:
+# O fatorial de um número é o produto dele pelos seus antecessores maiores que 0:
+#Por exemplo, o fatorial de 6 é: 6! = 6*5*4*3*2*1.
+def fatorial(n):
+  if(n <= 1):
+    return 1
+  else:
+    return n * fatorial(n-1)
+
+print(fatorial(0))
+print(fatorial(1))
+print(fatorial(3))
+print(fatorial(4))   
+print(fatorial(12))
+     
+
+#Usando a recursividade, faça uma função que escreve a sequência de Fibonacci.
+#Pesquise outras aplicações de quando usar funções recursivas.
+     
+120
